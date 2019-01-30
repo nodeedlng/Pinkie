@@ -6,7 +6,7 @@ header {
     margin: 0 auto;
     padding: 0;
     min-width: 1000px;
-    background-color: black;
+    background-color: #333333;
 }
 
 .banner {
@@ -25,7 +25,7 @@ header h1 {
     font-size: 40px;
     color: #fffbf0;
     line-height: 70px;
-    background-color: black;
+    background-color: #333333;
     font-family: "Times New Roman", Serif;
     font-weight: normal;
     margin: 0;
@@ -36,14 +36,14 @@ header h1 {
 body {
     margin: 0;
     padding: 0;
-    background-color: #b5a570;
+    background-color: #fffbf0;
 }
 
 
 /* NAVIGATION BAR */
 nav {
     min-width: 700px;
-    
+    border-bottom: 10px solid #6b6a6a;    
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav ul {
     overflow: hidden;
     padding: 0;
     list-style-type: none;
-    background-color: #333333;
+    background-color: #94834b;
 }
 
 nav ul li {
@@ -62,10 +62,18 @@ nav ul li a {
     display: block;
     text-align: center;
     padding: 16px;
-    color: white;
+    color: #fffbf0;
     text-decoration:  none;
+}
+
+nav ul li a:hover {
+    background-color: #79672c;
 }
 
 #about {
     float: right;
+}
+
+.active {
+    background-color: #b7a56d;
 }
