@@ -5,7 +5,8 @@ header {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    display: block;
+    min-width: 1000px;
+    background-color: black;
 }
 
 .banner {
@@ -19,10 +20,23 @@ header {
     padding: 0;
 }
 
+header h1 {
+    padding: 0 0 0 1%;
+    font-size: 40px;
+    color: #fffbf0;
+    line-height: 70px;
+    background-color: black;
+    font-family: "Times New Roman", Serif;
+    font-weight: normal;
+    margin: 0;
+
+}
+
 /*BODY STUFF*/
 body {
     margin: 0;
     padding: 0;
+    background-color: #b5a570;
 }
 
 
@@ -50,4 +64,8 @@ nav ul li a {
     padding: 16px;
     color: white;
     text-decoration:  none;
+}
+
+#about {
+    float: right;
 }
