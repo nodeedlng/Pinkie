@@ -65,22 +65,6 @@ main {
     background-color: #fffbf0;
 }
 
-#overviewcontainer {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-}
-
-#battlecontainer {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-}
-
 #neatline {
     border: none;
     width: 150%;
@@ -123,7 +107,7 @@ nav ul {
 }
 
 nav ul li {
-    width: 30%;
+    width: 23%;
     padding: 16px 0px 16px 0px;
     display: inline-block;
     text-align: center;
@@ -176,7 +160,7 @@ nav ul li:hover {
 }
 
 /* Unit Containers */
-#unitscontainer {
+.postcontainer {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -212,4 +196,21 @@ nav ul li:hover {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/*Commanders */
+#englishcommanders {
+    
+    width: 45%;
+    float: left;
+    text-align: left;
+    padding: 20px;
+}
+
+#scottishcommanders {
+    
+    width: 45%;
+    float: right;
+    text-align: right;
+    padding: 20px;
 }
