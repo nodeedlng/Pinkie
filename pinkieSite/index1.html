@@ -51,7 +51,7 @@
                     <p>The Rough Wooing was a time which saw conflict between Scotland and England. Due to the alliance of Scotland and France in what was known as the Auld Alliance, England would have to face a war on two fronts if they ever went to war against either of the two nations. In a bid to secure its borders, England attempted to bring Scotland under its control by marrying Edward VI to Mary, Queen of Scots.</p>
                     
                     <h3>The Battle of Pinkie</h3>
-                    <p>The battle of Pinkie was a battle during the Rough Wooing which was essentially the last great battle between the English and the Scots until their unification. </p>
+                    <p>With Scotland's constant avoidance of the issue wasting precious time, Somerset, the english regent, decided that military intervention in Scotland was necessary. The Scottish regent, Arran, knew that Somerset would eventually come to reign Scotland in and tried to pre-empt the attack by assaulting english strongholds. Unfortunately, his read was wrong and only served to provide the English with reason to invade. This is where the story of Pinkie begins...</p>
                     
                 </div>
                 
@@ -61,7 +61,7 @@
                 
                 <h2>Armies</h2>
                 
-                <div id = "unitnav">
+                <div id = "unitnav" class = "subnav">
                 
                     <ul>
                         
@@ -78,18 +78,82 @@
                     
                 </div>
                 
-                <div id = "formations" class = "units" style = "display: inherit;"></div>
+                <div id = "formations" class = "units" style = "display: inherit;">
+                
+                    <div id = "formationnav" class = "subnav">
+                
+                        <ul>
+                        
+                        <li id = "englishformationnav" class = "activeformation"><a href = "#englishformation">English Formations</a></li>
+                        <li id = "scottishformationnav"><a href = "#scottishformation">Scottish Formations</a></li>
+                            
+                        </ul>
+                    
+                    </div>
+                
+                    
+                    <div id = "englishformation" style="display: inherit;">
+                    
+                        <div id = "englishformationmedia" class = "media">
+
+                            <img class = "englishformationslides" src = "images/English%20Formation%20Movement%20Caldwell.PNG" style="display: block;">
+                            
+                            <iframe class = "englishformationslides" src="https://player.vimeo.com/video/328378835" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
+                            
+                            <iframe class = "englishformationslides" src="https://player.vimeo.com/video/328378880" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
+                        
+                            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'englishformationslides')">&#10094;</button>
+                    
+                            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'englishformationslides')">&#10095;</button>
+                
+                        </div>
+                
+                        <div id = "englishformationcontent" class = "content">
+                        
+                            <p>hello</p>
+
+                        </div>
+                    
+                    </div>
+                
+                    <div id = "scottishformation" style="display: none;">
+                    
+                        <div id = "scottishformationmedia" class = "media">
+
+                            <img class = "scottishformationslides" src = "images/Scottish%20Formation%20Movement%20Caldwell.PNG" style="display: block;">
+                            
+                            <iframe class = "scottishformationslides" src="https://player.vimeo.com/video/328368695" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style = "display: none;"></iframe>
+                            
+                            <img class = "scottishformationslides" src = "images/Scottish%20Formation%20Attack%20Caldwell.PNG" style="display: none;">
+                            
+                            <iframe class = "scottishformationslides" src="https://player.vimeo.com/video/328368714" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
+                        
+                            <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'scottishformationslides')">&#10094;</button>
+                    
+                            <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'scottishformationslides')">&#10095;</button>
+                
+                        </div>
+                
+                        <div id = "scottishformationcontent" class = "content">
+                        
+                            <p>hello</p>
+
+                        </div>
+                    
+                    </div>
+                    
+                </div>
                 
                 <div id = "arquebusiers" class = "units" style = "display: none;">
                 
                     <div id = "arquebusiersmedia" class = "media">
                         
-                        <iframe class = "arquebusiersslides" src="https://player.vimeo.com/video/326262973" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        <img class = "arquebusiersslides" src="images/Infantry%20-%20Hackbutter.JPG">
+                        <iframe class = "arquebusiersslides" src="https://player.vimeo.com/video/326262973" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: block;"></iframe>
+                        <img class = "arquebusiersslides" src="images/Infantry%20-%20Hackbutter.JPG" style = "display: none;">
                         
-                        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'arquebusiersslides')">&#10094;</button>
                     
-                        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                        <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'arquebusiersslides')">&#10095;</button>
                 
                     </div>
                 

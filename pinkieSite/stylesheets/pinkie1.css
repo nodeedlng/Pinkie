@@ -130,12 +130,12 @@ nav ul li:hover {
 }
 
 /*UNITS NAVBAR */
-#unitnav {
+.subnav {
     background-color: #94834b;
     border-bottom: 7px solid #333333;
 }
 
-#unitnav ul {
+.subnav ul {
     list-style-type: none;
     margin: 0px;
     overflow: hidden;
@@ -149,13 +149,24 @@ nav ul li:hover {
     padding: 5px 0px 7px 0px;    
 }
 
-#unitnav ul li a {
+#formationnav ul li {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0px 7px 0px;    
+}
+
+.subnav ul li a {
     text-align: center;
     color: #fffbf0;
     text-decoration: none;
 }
 
 .activeunit {
+    background-color: #b7a56d;
+}
+
+.activeformation {
     background-color: #b7a56d;
 }
 

@@ -46,6 +46,29 @@ for (var i = 0; i < unitsections.length; i ++) {
     });
 }
 
+
+var formationnav = document.getElementById("formationnav");
+
+var formationsections = formationnav.getElementsByTagName("li");
+
+for (var k = 0; k < formationsections.length; k ++) {
+    
+    formationsections[k].addEventListener("click", function() {
+        
+        var currentformation = document.getElementsByClassName("activeformation");
+        
+        document.getElementById(currentformation[0].id.substring(0, currentformation[0].id.length - 3)).style.display = "none";
+        
+        currentformation[0].className = currentformation[0].className.replace("activeformation", "");
+        this.className += "activeformation";
+        
+        document.getElementById(currentformation[0].id.substring(0, currentformation[0].id.length - 3)).style.display = "inherit";
+       
+    });
+}
+
+
+
 function hide(id) {
     document.getElementById(id).style.display = "none";
 }

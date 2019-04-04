@@ -1,13 +1,14 @@
 var slideIndex = 1;
-showDivs(slideIndex);
+showDivs(slideIndex, divid);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs(n, divid) {
+  showDivs(slideIndex += n, divid);
 }
 
-function showDivs(n) {
+
+function showDivs(n, divid) {
   var i;
-  var x = document.getElementsByClassName("arquebusiersslides");
+  var x = document.getElementsByClassName(divid);
     
   if (n > x.length) {slideIndex = 1};
     
