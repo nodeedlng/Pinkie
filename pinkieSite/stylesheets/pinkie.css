@@ -189,6 +189,7 @@ nav ul li:hover {
     padding: 15px;
     margin: 15px;
     position: absolute;
+    width: 45%;
     height: 400px;
 }
 
