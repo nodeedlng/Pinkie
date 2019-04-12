@@ -38,6 +38,7 @@ body {
     padding: 0px;
     background-color: #fffbf0;
     position: absolute;
+    min-width: 100%;
 }
 
 #imagescontainer h2 {
@@ -242,6 +243,14 @@ img {
   float: right;
 }
 #scotlandmapcontainer figcaption {
+  font-size: 13px;
+}
+
+#englishformation figcaption {
+  font-size: 13px;
+}
+
+#scottishformation figcaption {
   font-size: 13px;
 }
 
