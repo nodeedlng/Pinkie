@@ -3,27 +3,27 @@
 <!DOCTYPE html>
 
 <head>
-    
+
     <meta charset = "utf-8">
-    
+
     <title>The Battle of Pinkie</title>
-    
+
     <link rel = "stylesheet" href = "stylesheets/pinkie.css">
 
 </head>
 
 
 <body>
-    
+
     <header>
-        <img class = "banner" src = "images/pinkiemap_ships.jpg" alt = "Temp Bodleian Scroll">
-        
+        <img class = "banner" src = "images/Cropped Bodleian.png" alt = "Temp Bodleian Scroll">
+
         <div class = "heading">
             <h1>The Battle of Pinkie</h1>
         </div>
-    
+
     </header>
-        
+
     <nav>
         <ul>
             <li id = "overview" class = "active"><a href = "#overviewcontent">Overview</a></li>
@@ -32,39 +32,44 @@
             <li id = "acknowledgements"><a href = "#acknowledgementscontent">Acknowledgements</a></li>
         </ul>
     </nav>
-        
+
     <main>
-        
+
         <div id = "imagescontainer">
-            
+
             <div id = "overviewcontainer" class = "postcontainer" style = "display: inherit;">
-                
+
                 <h2>Overview</h2>
-                
+
                 <div id = "overviewmedia">
-                
+
                 </div>
-                
+
                 <div id = "overviewcontent">
-                
+
+                    <div id = "scotlandmapcontainer">
+                      <img id = "scotlandmap" src = "images/scotlandmap.png" alt = "Map of Scotland, 1530-1585?" width="650px" height="auto">
+                      <figcaption>A map of Scotland. This image was reproduced with the permission of the National Library of Scotland</figcaption>
+                    </div>
+
                     <h3>The Rough Wooing</h3>
                     <p>The Rough Wooing was a time which saw conflict between Scotland and England. Due to the alliance of Scotland and France in what was known as the Auld Alliance, England would have to face a war on two fronts if they ever went to war against either of the two nations. In a bid to secure its borders, England attempted to bring Scotland under its control by marrying Edward VI to Mary, Queen of Scots.</p>
-                    
+
                     <h3>The Battle of Pinkie</h3>
                     <p>With Scotland's constant avoidance of the issue wasting precious time, Somerset, the english regent, decided that military intervention in Scotland was necessary. The Scottish regent, Arran, knew that Somerset would eventually come to reign Scotland in and tried to pre-empt the attack by assaulting english strongholds. Unfortunately, his read was wrong and only served to provide the English with reason to invade. This is where the story of Pinkie begins...</p>
-                    
+
                 </div>
-                
+
             </div>
-            
+
             <div id = "unitscontainer" class = "postcontainer" style = "display: none;">
-                
+
                 <h2>Armies</h2>
-                
+
                 <div id = "unitnav" class = "subnav">
-                
+
                     <ul>
-                        
+
                         <li id = "formationsnav" class = "activeunit"><a href = "#formations">Formations</a></li>
                         <li id = "arquebusiersnav"><a href = "#arquebusiers">Arquebusiers</a></li>
                         <li id = "pikemennav"><a href = "#pikenen">Pikemen</a></li>
@@ -73,113 +78,113 @@
                         <li id = "culverinnav"><a href = "#culverin">Culverin</a></li>
                         <li id = "irisharchersnav"><a href = "#irisharchers">Irish Archers</a></li>
                         <li id = "commandersnav"><a href = "#commanders">Commanders</a></li>
-                    
+
                     </ul>
-                    
+
                 </div>
-                
+
                 <div id = "formations" class = "units" style = "display: inherit;">
-                
+
                     <div id = "formationnav" class = "subnav">
-                
+
                         <ul>
-                        
+
                         <li id = "englishformationnav" class = "activeformation"><a href = "#englishformation">English Formations</a></li>
                         <li id = "scottishformationnav"><a href = "#scottishformation">Scottish Formations</a></li>
-                            
+
                         </ul>
-                    
+
                     </div>
-                
-                    
+
+
                     <div id = "englishformation" style="display: inherit;">
-                    
+
                         <div id = "englishformationmedia" class = "media">
 
                             <img class = "englishformationslides" src = "images/English%20Formation%20Movement%20Caldwell.PNG" style="display: block;">
-                            
+
                             <iframe class = "englishformationslides" src="https://player.vimeo.com/video/328378835" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
-                            
+
                             <iframe class = "englishformationslides" src="https://player.vimeo.com/video/328378880" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
-                        
+
                             <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'englishformationslides')">&#10094;</button>
-                    
+
                             <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'englishformationslides')">&#10095;</button>
-                
+
                         </div>
-                
+
                         <div id = "englishformationcontent" class = "content">
-                        
+
                             <p>The English army was relatively smaller than the Scottish force, but was more experienced in warfare having made incursions into the Continent. However, while they had less infantry, they made up the difference with cavalry which could count for many men on the battlefield. Contemporary sources are quite consistent in giving numbers for the army, which consisted of:</p>
-                            
+
                             <ul>
-                            
+
                                 <li>10,000 Pikemen</li>
                                 <li>600 Arquebusiers</li>
                                 <li>200 Mounted Arquebusiers</li>
                                 <li>2,000 Light Horse</li>
                                 <li>4,000 Heavy Horse</li>
                                 <li>15 Great Guns</li>
-                                
-                            
+
+
                             </ul>
 
                         </div>
-                    
+
                     </div>
-                
+
                     <div id = "scottishformation" style="display: none;">
-                    
+
                         <div id = "scottishformationmedia" class = "media">
 
                             <img class = "scottishformationslides" src = "images/Scottish%20Formation%20Movement%20Caldwell.PNG" style="display: block;">
-                            
+
                             <iframe class = "scottishformationslides" src="https://player.vimeo.com/video/328368695" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style = "display: none;"></iframe>
-                            
+
                             <img class = "scottishformationslides" src = "images/Scottish%20Formation%20Attack%20Caldwell.PNG" style="display: none;">
-                            
+
                             <iframe class = "scottishformationslides" src="https://player.vimeo.com/video/328368714" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
-                        
+
                             <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'scottishformationslides')">&#10094;</button>
-                    
+
                             <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'scottishformationslides')">&#10095;</button>
-                
+
                         </div>
-                
+
                         <div id = "scottishformationcontent" class = "content">
-                        
+
                             <p>The Scottish force is not as consistently recorded as the English, but all sources agree that they held the numbers advantage. They had a wide range of artillery of varying sizes and had the help of the famous Irish archers, who were the fighting elite in Ireland. However, they suffered from having fewer cavalrymen which was a problem compounded by the disaster of losing a huge number of them on the day before the battle to a skirmish. The Scottish army had: </p>
-                            
+
                             <ul>
-                            
+
                                 <li>18,000 Pikemen</li>
                                 <li>3,000 Irish Archers</li>
                                 <li>1,500 (400 on the day of the battle) Light Horse </li>
                                 <li>30 pieces of Artillery</li>
-                            
+
                             </ul>
 
                         </div>
-                    
+
                     </div>
-                    
+
                 </div>
-                
+
                 <div id = "arquebusiers" class = "units" style = "display: none;">
-                
+
                     <div id = "arquebusiersmedia" class = "media">
-                        
+
                         <iframe class = "arquebusiersslides" src="https://player.vimeo.com/video/326262973" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: block;"></iframe>
                         <img class = "arquebusiersslides" src="images/Infantry%20-%20Hackbutter.JPG" style = "display: none;">
-                        
+
                         <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'arquebusiersslides')">&#10094;</button>
-                    
+
                         <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'arquebusiersslides')">&#10095;</button>
-                
+
                     </div>
-                
+
                     <div id = "arquebusierscontent" class = "content">
-                        
+
                         <p>Arquebuses were long barrelled firearms which fired lead balls at the enemy. Relatively slow to reload and cumbersome to use, these men were often used with pikemen nearby for protection. Each time an arquebus was fired, they required a reloading process which would take both hands to accomplish, leaving them vulnerable to charges. The reloading process involved pouring the gunpowder in the barrel and packing it in tightly with a rod then stuffing in a piece of paper to hold it in place. Next the lead ball would be dropped into the barrel and rammed in with the rod. Finally, finer gunpowder would be poured into the pan and the glowing match placed in the serpentine.</p>
 
                         <p>Their contribution to battles of their time is undeniable. Apart from being able to pierce armour at certain distances, firing an arquebus generated a lot of noise and smoke which could disorient and scare the opposition if unused to seeing them on the battlefield.</p>
@@ -189,197 +194,257 @@
                         <p>At the battle of Pinkie, the Scots are said to not have any arquebusiers while the English hired mercenaries to do the job.</p>
 
                     </div>
-                    
+
                 </div>
-                
+
                 <div id = "pikemen" class = "units" style = "display: none;">
-                
+
                     <div id = "pikemenmedia" class = "media">
-                        
+
                         <iframe src="https://player.vimeo.com/video/326263006" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                
+
                     </div>
-                
+
                     <div id = "pikemencontent" class = "content">
-                        
+
                         <p>Inspired by classical armies of old, these pike armed men were the defensive backbone of the renaissance army. In their closely packed square formations, their job was to protect the vulnerable ranged units from enemy cavalry and infantry attacks. </p>
 
                         <p>Due to the unwieldy size of the weapon, units had to be trained to use them effectively and to keep formation. Part of the power of the pikes lay in the tight formations which gave them a lot of combined mass. </p>
 
                         <p>Popularised in the continent, the Scottish armies had adopted these weapons as the primary infantry weapon for some time while the English still preferred using the bill over the pike. However, the benefits of the pike were slowly being acknowledged by the English who, by the time of the battle of Pinkie, also incorporated pikes into their ranks.</p>
 
-                
+
                     </div>
-                
+
                 </div>
-                
+
                 <div id = "heavyhorse" class = "units" style = "display: none;">
-                
+
                     <div id = "heavyhorsemedia" class = "media">
-                        
+
                         <iframe src="https://player.vimeo.com/video/326262989" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                
+
                     </div>
-                
+
                     <div id = "heavyhorsecontent" class = "content">
-                        
+
                         <p>These men were of a higher rank in society who were trained to fight. They were armoured to the highest standards of the day, wearing plate armour over mail. This armour protected them from most weapons of the time and incapacitating a fully armoured combatant required blunt force or attacking the joints in the armour. The horses were also armoured to a significant degree.</p>
 
                         <p>When attacking, these men used wooden lances on the charge to break enemy lines. These lances were meant to break on use and be discarded. When in close quarters, the men-at-arms would switch over to their secondary weapon like a sword. The horses themselves were also a danger to enemy infantry, as they could trample men with ease. </p>
 
-                
+
                     </div>
-                    
+
                 </div>
-                
+
                 <div id = "lighthorse" class = "units" style = "display: none;">
-                
+
                     <div id = "lighthorsemedia" class = "media">
-                        
+
                         <iframe src="https://player.vimeo.com/video/327262989" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                
+
                     </div>
-                
+
                     <div id = "lighthorsecontent" class = "content">
-                        
+
                         <p>As the name suggests, these units were the lighter version of the men-at-arms. Instead of man and horse being fully covered in armour, light horses did not wear armour and their riders only wore three-quarter armour. This marked the point where full body armour was in decline in favour of only armouring vital areas. </p>
 
                         <p>Like the heavy horse, the light horse fought with lances and a secondary weapon when that broke. Essentially, the light horse were like budget heavy horse and were often used the same way.</p>
-                
+
                     </div>
-                
+
                 </div>
-                
+
                 <div id = "culverin" class = "units" style = "display: none;">
-                
+
                     <div id = "culverinmedia" class = "media">
-                        
+
                         <iframe src="https://player.vimeo.com/video/327263022" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                
+
                     </div>
-                
+
                     <div id = "culverincontent" class = "content">
-                        
+
                         <p>The culverin was a form of artillery used from the 15th century onwards. It was one type of artillery which was used at the battle of Pinkie. However, all artillery used shared the purpose of killing at extreme range.</p>
 
                         <p>These artillery pieces were so heavy that they were mounted on a cart and pulled by horses or oxen during transportation. Furthermore, they required a large number of cannonballs and gunpowder which all had to be transported as well. But when deployed, they could whittle down the opposing army’s numbers and drop their morale greatly.</p>
 
                     </div>
-                
+
                 </div>
-                
+
                 <div id = "irisharchers" class = "units" style = "display: none;">
-                    
+
                     <div id = "irisharchersmedia" class = "media">
-                        
+
                         <iframe src="https://player.vimeo.com/video/327263064" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                
+
                     </div>
-                
+
                     <div id = "irisharcherscontent" class = "content">
-                        
+
                         <p>The Irish archers did not come from Ireland, but rather from the western isles of Scotland. They, however, fought in Ireland as mercenaries for local lords. The Irish archers were also known as the galloglass who, by the time of the 16th century, had become renowned as a fighting force who rather die than surrender. </p>
 
                         <p>These men were armed with bows but were no pushover in a melee fight. They often used two handed axes or claymores in close combat and knew how to use their weapons. As for armour, the Irish archers are often depicted with an aketun (a padded jacket which went down to the knees) and chain mail. While not as impenetrable as plate mail, an aketun could stop sword blows and provided sufficient protection for the wearer.</p>
 
-                
+
                     </div>
-            
+
                 </div>
-                
+
                 <div id = "commanders" class = "units" style = "display: none;">
-                    
+
                     <div id = "englishcommanders">
-                        
+
                         <h3>England</h3>
-                        
+
                         <div id = "somerset">
-                        
+
                             <h4>Somerset</h4>
-                            <p>As a military man, none could doubt his skill at warfare. His continuation of the foreign policy started by Henry VIII involved neutralising Scotland as a potential front in case of war with France. As the commander of the English at the battle of Pinkie, he led them to a decisive victory over the Scots.</p>
-                        
+                            <img src = "images/Somerset.jpg" alt = "Somerset, English Regent" width="80px" height="auto" style="float: right;">
+                            <div id = "somersettext">
+                              <p>As a military man, none could doubt his skill at warfare. His continuation of the foreign policy started by Henry VIII involved neutralising Scotland as a potential front in case of war with France. As the commander of the English at the battle of Pinkie, he led them to a decisive victory over the Scots.</p>
+                            </div>
+
                         </div>
-                        
+
                         <div id = "gray">
-                        
+
                             <h4>Gray</h4>
-                            <p>Captain general of all horsemen in the English army. He was given the difficult task of stalling the Scots. While launching an unsuccessful attack, he achieved his set goal and contributed the eventual English Victory.</p>
-                        
+                            <img src = "images/Gray.jpg" alt = "Lord Gray of Wilton" width = "80px" height="auto" style="float: right;">
+                            <div id = "graytext">
+                              <p>Captain general of all horsemen in the English army. He was given the difficult task of stalling the Scots. While launching an unsuccessful attack, he achieved his set goal and contributed the eventual English Victory.</p>
+                            </div>
+
                         </div>
-                        
+
                     </div>
-                
+
                     <div id = "scottishcommanders">
-                        
+
                         <h3>Scotland</h3>
-                        
+
                         <div id = "arran">
-                        
+
                             <h4>Arran</h4>
-                            
+
+                            <img src = "images/Arran.jpg" alt = "Earl of Arran" width = "80px" height="auto" style="float: left;">
                             <p>The regent of the Scottish crown. Still in his early thirties by the time of the battle of Pinkie, he was somewhat experienced in warfare having participated in the battle of Ancrum against the English and laying siege to protestant strongholds. However, he was widely considered, perhaps wrongly, to be an ineffectual military leader and as one of the key reasons as to why the Scots lost the battle of Pinkie for his order to move from a strong defensive position. He led the main army at the battle of Pinkie.</p>
-                            
+
                         </div>
-                
+
                         <div id = "angus">
-                        
+
                             <h4>Angus</h4>
-                            
+
+                            <img src = "images/Angus.jpg" alt = "Earl of Arran" width = "80px" height = "auto" style="float:left;">
                             <p>Even with dubious character and constant changes of allegiance, there is no denying that the Earl of Angus was a strong military leader having led at Ancrum amongst other victories. At the battle of Pinkie, he led the vanguard.</p>
-                            
+
                         </div>
-                        
+
                         <div id = "huntly">
-                        
+
+                          <br>
+                          <br>
+
                             <h4>Huntly</h4>
-                            
+
                             <p>Leader of the rearguard. Sources note that in face of the Scottish rout, he managed to control his troops and thus avoided being run down by the English.</p>
-                            
+
                         </div>
-                        
+
                     </div>
-                    
+
                 </div>
-                    
+
             </div>
-            
+
             <div id = "battlecontainer" class = "postcontainer" style = "display: none;">
-                
+
                 <h2>Battle</h2>
-                
+
                 <div id = "battlemedia">
-                
+
                     <iframe id = "neatline" src = "http://straylight.cs.st-andrews.ac.uk/omeka/neatline/fullscreen/battle-of-pinkie"></iframe>
-                    
+
                 </div>
-                
-                <div id = "battlecontent">
-                
-                </div>
-            
+
             </div>
-            
+
             <div id = "acknowledgementscontainer" class = "postcontainer" style = "display: none;">
-            
+
                 <h2>Acknowledgements and Sources</h2>
-                
+
                 <div id = "acknowledgementscontent">
-                
-                
+
+                  <h4>Acknowledgements</h4>
+                  <p>This resource was built for my senior honours project to have a way to show the work done in modelling the battle of Pinkie. This would not have been possible without the advice and support of my supervisors, Alan Miller and Elizabeth Rhodes. Furthermore, thanks must be given to David Caldwell who provided many historical resources which were used in this project.</p>
+
+                  <div id = "acknowledgementsimages">
+
+                    <h4>Image References</h4>
+
+                    <b>Header: Bodleian Scroll</b>
+                    <p>Provided by the Bodleian Libraries, Oxford, 2015</p>
+
+                    <b>Overview: Map of Scotland</b>
+                    <p>Poracchi, Thomaso, ca. 1530-1585, Scotia, National Library of Scotland, retrieved on 12/04/2019:</p>
+                    <a href = "https://maps.nls.uk/view/00000217">https://maps.nls.uk/view/00000217</a> <br>
+
+                    <b>Armies - Formations - English Formations: The English Army on the Move</b>
+                    <p>Caldwell, David, October 2015, PINKIE, page 39, retrieved on 12/04/2019</p>
+
+                    <b>Armies - Formations - Scottish Formations: The Scottish Army on the Move</b>
+                    <p>Caldwell, David, October 2015, PINKIE, page 37, retrieved on 12/04/2019</p>
+
+                    <b>Armies - Formations - Scottish Formations: How Arran Intended to Draw Up the Scottish Army</b>
+                    <p>Caldwell, David, October 2015, PINKIE, page 37, retrieved on 12/04/2019</p>
+
+                    <b>Armies - Arquebusiers: Reconstruction of an Arquebusier</b>
+                    <p>Norman, A.V.B, Pottinger, Don, 1979, English Weapons & Warfare 449-1660, page 165, retrieved on 12/04/2019</p>
+
+                    <b>Armies - Commanders - English Army: Somerset</b>
+                    <p>16th century, Portrait of Edward Seymour, retrieved on 12/04/2019:</p>
+                    <a href="https://commons.wikimedia.org/wiki/File:Edward_Seymour.jpg">https://commons.wikimedia.org/wiki/File:Edward_Seymour.jpg</a> <br>
+
+                    <b>Armies - Commanders - English Army: Gray</b>
+                    <p>Flicke, Gerlach, 1547, "An unknown nobleman, thought to be Lord Grey de Wilton", National Gallery of Scotland, retrieved on 12/04/2019:</p>
+                    <a href="https://en.wikipedia.org/wiki/William_Grey,_13th_Baron_Grey_de_Wilton#/media/File:Gerlach-Flicke-Portrait-of-a-Nobleman.jpg">https://en.wikipedia.org/wiki/William_Grey,_13th_Baron_Grey_de_Wilton#/media/File:Gerlach-Flicke-Portrait-of-a-Nobleman.jpg</a><br>
+
+                    <b>Armies - Commanders - Scottish Army: Arran</b>
+                    <p>James Hamilton, 2nd Earl of Arran, retrieved on 12/04/2019:</p>
+                    <a href="https://en.wikipedia.org/wiki/Earl_of_Arran#/media/File:James_Hamilton_(Earl_of_Arran).jpg">https://en.wikipedia.org/wiki/Earl_of_Arran#/media/File:James_Hamilton_(Earl_of_Arran).jpg</a><br>
+
+                    <b>Armies - Commanders - Scottish Army: Angus</b>
+                    <p>16th century, Portrait of Archibald Douglas, Royal Collection Trust, retrieved on 12/04/2019:</p>
+                    <a href="https://www.rct.uk/collection/402700/archibald-douglas-6th-earl-of-angus-1489-1557">https://www.rct.uk/collection/402700/archibald-douglas-6th-earl-of-angus-1489-1557</a><br>
+
+                  </div>
+
+                  <div id = "acknowledgementsresources">
+
+                    <h4>Resource References</h4>
+
+                    <p>Caldwell, David, October 2015, PINKIE, page 39, retrieved on 12/04/2019</p>
+                    <p>Caldwell, David, Macdougall, Norman 1991, Scotland and War AD79 - 1918, pages 61 - 89 retrieved on 12/04/2019</p>
+                    <p>Caldwell, David, September/October 2017, The Scots' Defeat at Pinkie in 1547, pages 18 - 23, History Scotland, retrieved on 12/04/2019</p>
+                    <p>Norman, A.V.B, Pottinger, Don, 1979, English Weapons & Warfare 449-1660, retrieved on 12/04/2019</p>
+
+
                 </div>
-                
+
             </div>
-        
+
         </div>
 
-    
+
     </main>
-    
-    
+
+
     <footer>
-    
+
     </footer>
-    
+
     <script src = "scripts/navbar.js"></script>
     <script src = "scripts/slideshow.js"></script>
 

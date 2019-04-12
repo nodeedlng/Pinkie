@@ -146,14 +146,14 @@ nav ul li:hover {
     width: 12.231%;
     display: inline-block;
     text-align: center;
-    padding: 5px 0px 7px 0px;    
+    padding: 5px 0px 7px 0px;
 }
 
 #formationnav ul li {
     width: 49%;
     display: inline-block;
     text-align: center;
-    padding: 5px 0px 7px 0px;    
+    padding: 5px 0px 7px 0px;
 }
 
 .subnav ul li a {
@@ -212,7 +212,7 @@ img {
 
 /*Commanders */
 #englishcommanders {
-    
+
     width: 45%;
     float: left;
     text-align: left;
@@ -220,9 +220,90 @@ img {
 }
 
 #scottishcommanders {
-    
+
     width: 45%;
     float: right;
     text-align: right;
     padding: 20px;
 }
+
+#acknowledgementscontainer #acknowledgementscontent {
+
+  width: 96%;
+  margin: 30px;
+}
+
+#overviewcontent {
+  margin: 30px;
+}
+
+#scotlandmapcontainer {
+  margin: 10px 50px;
+  float: right;
+}
+#scotlandmapcontainer figcaption {
+  font-size: 13px;
+}
+
+#acknowledgementsimages {
+  width: 45%;
+  float: left;
+  overflow: scroll;
+  height: 450px;
+}
+
+#acknowledgementsresources {
+  width: 45%;
+  float: right;
+}
+
+#acknowledgementsimages p{
+  font-size: 12px;
+}
+
+#acknowledgementsimages a{
+  font-size: 12px;
+}
+
+#acknowledgementsresources p{
+  font-size: 12px;
+}
+
+#acknowledgementsresources a{
+  font-size: 12px;
+}
+
+#acknowledgementsimages b{
+  font-size: 14px;
+}
+
+#acknowledgementsresources b{
+  font-size: 14px;
+}
+
+/*#somerset {
+  height: 20%;
+}
+
+#gray {
+  height: 20%;
+}
+
+#somersettext {
+  float:right;
+  width: 75%;
+}
+
+#somerset img {
+  float: left;
+}
+
+#graytext {
+  float: right;
+  width: 75%;
+}
+
+#gray img {
+  float: left;
+}
+*/
